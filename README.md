@@ -8,7 +8,7 @@
 Кучеренко Іван 
 
 ### Методичні вказівки:
-- [Heruko] (https://jace-dev.herokuapp.com/design/js-talks#/)
+- [Heruko](https://jace-dev.herokuapp.com/design/js-talks#/)
 
 ### Контактні дані:
  - [GitHub](https://github.com/IKu4er)
