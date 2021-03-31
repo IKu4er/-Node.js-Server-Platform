@@ -35,9 +35,9 @@ Node.js не підтримує версію платформи, якщо у п�
 | GNU/Linux          | ppc64le >=power8 | kernel >= 3.10.0, glibc >= 2.17 | Рівень 2       | e.g. Ubuntu 16.04 |
 | GNU/Linux          | s390x            | kernel >= 3.10.0, glibc >= 2.17 | Рівень 2       | e.g. EL 7     |
 | Windows            | x64, x86 (WoW64) | >= Windows 8.1/2012 R2          | Рівень 1       |    |
-| Windows            | x86 (native)     | >= Windows 8.1/2012 R2          | Рівень 1 (running) / Experimental (compiling)  | |
+| Windows            | x86 (native)     | >= Windows 8.1/2012 R2          | Рівень 1 (running) / Експериментальний (compiling)  | |
 | Windows            | x64, x86         | Windows Server 2012 (not R2)    | Експериментальний |                                   |
-| Windows            | arm64            | >= Windows 10                   | Рівень 2 (compiling) / Experimental (running) |    |
+| Windows            | arm64            | >= Windows 10                   | Рівень 2 (compiling) / Експериментальний (running) |    |
 | macOS              | x64              | >= 10.13                        | Рівень 1       |                                   |
 | macOS              | arm64            | >= 11                           | Експериментальний |                                   |
 
