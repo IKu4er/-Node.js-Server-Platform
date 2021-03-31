@@ -26,16 +26,16 @@ Node.js не підтримує версію платформи, якщо у п�
 
 | Операційна система | Архітектура    | Версії                            | Тип підтримки | Помітки                             |
 | ----------------   | ---------------- | ------------------------------- | ------------  | --------------------------------- |
-| GNU/Linux          | x64              | kernel >= 3.10, glibc >= 2.17   | Рівень 1        | e.g. Ubuntu 16.04 <sup>[1](#fn1)</sup>, Debian 9, EL 7 <sup>[2](#fn2)</sup> |
+| GNU/Linux          | x64              | kernel >= 3.10, glibc >= 2.17   | Рівень 1        | e.g. Ubuntu 16.04, Debian 9|
 | GNU/Linux          | x64              | kernel >= 3.10, musl >= 1.1.19  | Експериментальний | e.g. Alpine 3.8                   |
 | GNU/Linux          | x86              | kernel >= 3.10, glibc >= 2.17   | Експериментальний | Downgraded as of Node.js 10       |
-| GNU/Linux          | arm64            | kernel >= 4.5, glibc >= 2.17    | Рівень 1       | e.g. Ubuntu 16.04, Debian 9, EL 7 <sup>[3](#fn3)</sup> |
+| GNU/Linux          | arm64            | kernel >= 4.5, glibc >= 2.17    | Рівень 1       | e.g. Ubuntu 16.04, Debian 9, EL 7  |
 | GNU/Linux          | armv7            | kernel >= 4.14, glibc >= 2.24   | Рівень 1       | e.g. Ubuntu 18.04, Debian 9       |
 | GNU/Linux          | armv6            | kernel >= 4.14, glibc >= 2.24   | Експериментальний | Downgraded as of Node.js 12       |
-| GNU/Linux          | ppc64le >=power8 | kernel >= 3.10.0, glibc >= 2.17 | Рівень 2       | e.g. Ubuntu 16.04 <sup>[1](#fn1)</sup>, EL 7  <sup>[2](#fn2)</sup> |
-| GNU/Linux          | s390x            | kernel >= 3.10.0, glibc >= 2.17 | Рівень 2       | e.g. EL 7 <sup>[2](#fn2)</sup>    |
-| Windows            | x64, x86 (WoW64) | >= Windows 8.1/2012 R2          | Рівень 1       | <sup>[4](#fn4),[5](#fn5)</sup>    |
-| Windows            | x86 (native)     | >= Windows 8.1/2012 R2          | Рівень 1 (running) / Experimental (compiling) <sup>[6](#fn6)</sup> | |
+| GNU/Linux          | ppc64le >=power8 | kernel >= 3.10.0, glibc >= 2.17 | Рівень 2       | e.g. Ubuntu 16.04 |
+| GNU/Linux          | s390x            | kernel >= 3.10.0, glibc >= 2.17 | Рівень 2       | e.g. EL 7     |
+| Windows            | x64, x86 (WoW64) | >= Windows 8.1/2012 R2          | Рівень 1       |    |
+| Windows            | x86 (native)     | >= Windows 8.1/2012 R2          | Рівень 1 (running) / Experimental (compiling)  | |
 | Windows            | x64, x86         | Windows Server 2012 (not R2)    | Експериментальний |                                   |
 | Windows            | arm64            | >= Windows 10                   | Рівень 2 (compiling) / Experimental (running) |    |
 | macOS              | x64              | >= 10.13                        | Рівень 1       |                                   |
@@ -58,11 +58,11 @@ Node.js не підтримує версію платформи, якщо у п�
 | Бінарні пакети        | Платформа та набір інструментів                                                                               |
 | --------------------- | ------------------------------------------------------------------------------------------------------------- |
 | darwin-x64 (and .pkg) | macOS 10.15, Xcode Command Line Tools 11 with -mmacosx-version-min=10.13                                      |
-| linux-arm64           | CentOS 7 with devtoolset-8 / GCC 8 <sup>[8](#fn8)</sup>                                                       |
-| linux-armv7l          | Cross-compiled on Ubuntu 18.04 x64 with [custom GCC toolchain](https://github.com/rvagg/rpi-newer-crosstools) |
-| linux-ppc64le         | CentOS 7 with devtoolset-8 / GCC 8 <sup>[8](#fn8)</sup>                                                       |
-| linux-s390x           | RHEL 7 with devtoolset-8 / GCC 8 <sup>[8](#fn8)</sup>                                                         |
-| linux-x64             | CentOS 7 with devtoolset-8 / GCC 8 <sup>[8](#fn8)</sup>                                                       |
+| linux-arm64           | CentOS 7 with devtoolset-8 / GCC 8                                                        |
+| linux-armv7l          | Cross-compiled on Ubuntu 18.04 x64 |
+| linux-ppc64le         | CentOS 7 with devtoolset-8 / GCC 8                                                       |
+| linux-s390x           | RHEL 7 with devtoolset-8 / GCC 8                                                       |
+| linux-x64             | CentOS 7 with devtoolset-8 / GCC 8                                                     |
 | win-x64 and win-x86   | Windows 2012 R2 (x64) with Visual Studio 2019                                                                 |
 
 ## Основи npm:
