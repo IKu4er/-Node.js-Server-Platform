@@ -65,6 +65,9 @@
    ![image](https://user-images.githubusercontent.com/66551575/114609350-5d141200-9ca7-11eb-8aff-3fa5d8803b95.png)
    
    Гортаємо у самий низ та запускаємо файл ```package-lock.json```, в мене він називається ```npm-shrinkwrap.json```.
+   
+   ![image](https://user-images.githubusercontent.com/66551575/114609822-e0cdfe80-9ca7-11eb-9250-b0a5137e7694.png)
+
    Справа в тому, що **package-lock.json неможливо опублікувати у мережі**, для цього нам потрібен файл типу **shrinkwrap.json**, для цього потрібно встановити це розширення за допомогою команди:
    ```npm shrinkwrap```
    
