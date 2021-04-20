@@ -200,7 +200,6 @@ Hомери версій пакетів задаються не тільки у 
 Наприклад: ```npm install lodash@"~4.17.1"```
 Результат:
 ```json
-package.json
 {
   "name": "untitled",
   "version": "1.0.0",
