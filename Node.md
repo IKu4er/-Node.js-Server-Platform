@@ -213,7 +213,6 @@ package.json
 Наприклад: ```npm install lodash@"^4.15.0"```
 Результат:
 ```json
-package.json
 {
   "name": "untitled",
   "version": "1.0.0",
@@ -226,7 +225,6 @@ package.json
 Наприклад: ```npm install lodash@"*3.10.1"```
 Результат:
 ```json
-package.json
 {
   "name": "untitled",
   "version": "1.0.0",
@@ -239,7 +237,6 @@ package.json
 Наприклад: ```npm install lodash@">2.4.2"```
 Результат:
 ```json
-package.json
 {
   "name": "untitled",
   "version": "1.0.0",
@@ -252,7 +249,6 @@ package.json
 Наприклад: ```npm install lodash@"<4.17.15"```
 Результат:
 ```json
-package.json
 {
   "name": "untitled",
   "version": "1.0.0",
@@ -306,7 +302,15 @@ package.json
 - Версії залежностей будуть оновлені в ```package-lock.json``` після виконання команди ```npm update```. У кожного файл ```package-lock.json``` є поле **version**, є поле **resolved**, яке вказує на розташування пакета, і строкове властивість **integrity**, яке можна використовувати для перевірки цілісності пакету.
 
 
+### Учасники:
 
+Кучеренко Іван 
+
+### Контактні дані:
+ - [Телеграм](http://t.me/rmnstepaniuk)
+
+## Посилання на репозиторій
+ - [GitHub](https://github.com/IKu4er/-Node.js-Server-Platform)
 
 
 
