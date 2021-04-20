@@ -7,11 +7,8 @@
 
 Кучеренко Іван 
 
-### Методичні вказівки:
-- [Heruko](https://jace-dev.herokuapp.com/design/js-talks#/)
-
 ### Контактні дані:
- - [GitHub](https://github.com/IKu4er)
  - [Телеграм](http://t.me/rmnstepaniuk)
 
-
+## Посилання на репозиторій
+ - [GitHub](https://github.com/IKu4er/-Node.js-Server-Platform)
