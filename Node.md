@@ -111,6 +111,7 @@ npm зробив установку пакетів JavaScript настільки
 
 ## dependencies и devDependencies
 ```dependencies і devdependencies```представляють собою словники з іменами npm-бібліотек (ключ) і їх семантичні версії (значення). Приклад з шаблону TypeScript Action:  
+
 ```json
 {
  "dependencies": {
